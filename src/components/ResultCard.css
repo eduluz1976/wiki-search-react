@@ -10,7 +10,14 @@
     display: flex;
     padding: 2em;
     border: 1px solid #444;
+    background-color: #fff;
 }
+
+.result-card-container:hover {
+    background-color: #aaaaff;
+    cursor: pointer;
+}
+
 
 .result-card-thumbnail {
     display: flex;

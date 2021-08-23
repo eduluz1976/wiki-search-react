@@ -15,11 +15,14 @@ export default function ResultCard(props) {
         item.description = '';
     }
 
+    function visitPage() {
+        location.href = 'https://en.wikipedia.org/wiki/'+item.key;        
+    }
     
 
 
     return (
-        <div className="result-card-container">
+        <div className="result-card-container" onClick={visitPage} >
             <div className="result-card-thumbnail">
                 <Image   src={item.thumbnail.url }/>
             </div>
