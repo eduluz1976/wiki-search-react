@@ -1,0 +1,18 @@
+
+.search-card-container {
+    display: block;
+    padding: 2em;
+    border: 1px solid #444;
+}
+
+.search-card-input-text {
+    width: 100%;
+    font-size: x-large;
+    color:#444;
+    padding: 6px;
+}
+
+
+.search-card-info {
+    font-size: small;
+}

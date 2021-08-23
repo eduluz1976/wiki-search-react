@@ -1,0 +1,36 @@
+
+
+.result-card-image {
+    width: 100%;
+    height:min-content;
+
+}
+
+.result-card-container {
+    display: flex;
+    padding: 2em;
+    border: 1px solid #444;
+}
+
+.result-card-thumbnail {
+    display: flex;
+    max-width: 100px;
+}
+
+.result-card-body {
+    text-align: left;
+    padding: 10px;
+}
+
+.result-card-body h2{
+    margin: 0;
+}
+
+
+.result-list {
+    display: grid;
+    /* grid-template-rows: 10em; */
+    row-gap: 10px;
+}
+
+
